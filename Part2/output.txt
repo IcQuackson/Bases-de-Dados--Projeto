@@ -1,0 +1,57 @@
+A - List all products (EAN and description) that have been replenished in more than 15 units, after 25/04/2021 in the “Milk” category
+output:
+
+         ean          |    descr
+----------------------+--------------
+ 27283213588398043725 | Leite Mimosa
+(1 row)
+
+------------------------------------------------------
+
+B - Given the EAN of a product, display the name and NIF of all its suppliers (both primary and secondary).
+output:
+
+	name	   |	nif
+-------------------+--------------
+Maxi Supplier      | 249368934
+Adipiscing Company | 795141672
+Ac Nulla Institute | 826043114
+(3 rows)
+
+-------------------------------------------------------
+
+C - Display the number of sub-categories (direct descendants) of the “Milk” category.
+output:
+
+ count
+-------
+      3
+(1 row)
+
+--------------------------------------------------------
+
+D - What is the name and NIF of the supplier who supplied more categories.
+output:
+      name      |    nif
+----------------+-------------
+ Eggs Institute | 280861747
+(1 row)
+
+--------------------------------------------------------
+E - List the primary suppliers (name and NIF) who supplied products in all simple categories.
+output:
+
+        name        |    nif  
+--------------------+------------  
+ Eggs Institute     | 280861747
+(1 rows)
+
+--------------------------------------------------------
+F - List the aisles that contain products from all primary suppliers that are not secondary suppliers of any products.
+output:
+
+ corridor_nr  | supermarket_nif
+--------------+-----------------
+           2  | 382017654
+(1 row)
+
