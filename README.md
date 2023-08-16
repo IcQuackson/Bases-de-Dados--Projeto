@@ -2,7 +2,8 @@
 
 ## Description
 
-The Supermarket Database Design and Implementation project is built using PostgreSQL, a powerful open-source relational database management system. This project focuses on designing a comprehensive database schema using entity-relationship (ER) diagrams to model the structure and relationships within a supermarket. It involves creating tables, triggers, and procedures to handle various supermarket operations efficiently.
+The Supermarket Database Design and Implementation project is built using PostgreSQL, Python CGI and HTML.
+This project focuses on designing a comprehensive database schema using entity-relationship (ER) diagrams to model the structure and relationships within a supermarket. It involves creating tables, triggers, and procedures to handle various supermarket operations efficiently.
 
 ## Key Features
 
@@ -17,6 +18,8 @@ The Supermarket Database Design and Implementation project is built using Postgr
 - **Procedures**: Implement procedures (stored procedures) to encapsulate sets of database operations. These procedures can perform complex calculations, generate reports, or execute commonly used business logic within the supermarket's database.
 
 - **Data Integrity and Validation**: Emphasize data integrity by implementing constraints such as unique constraints and referential integrity to maintain the accuracy and consistency of the supermarket data.
+
+- **Web Application**: Development of simple Web application that connects user interface to Database.
 
 ## Installation and Usage
 
