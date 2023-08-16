@@ -21,11 +21,11 @@ This project focuses on designing a comprehensive database schema using entity-r
 
 - **Indexes**: Indexing over attrbutes and tables in order to speed up each query execution.
 
-- **Web Application**: Development of simple Web application that connects user interface to Database.
-
-- ** Multidimensional Model**: Create a star schema in the database with information concerning products and their corresponding replenishments.
+- **Multidimensional Model**: Create a star schema in the database with information concerning products and their corresponding replenishments.
 
 - **Data Analytics Queries**: Write SQL queries that allows me to analyze the total number of replenishments for each category by week day and month using ROLLUP, CUBE, GROUPING SETS instructions and the UNION of GROUP BY clauses.
+- 
+- **Web Application**: Development of simple Web application that connects user interface to Database.
 
 ## Installation and Usage
 
